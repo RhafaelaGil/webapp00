@@ -39,34 +39,34 @@ if st.button('Exibir Previsão'):
    
       # store the value corresponding
       # to the "temp" key of y
-      current_temperatura = y["temp"]
+      current_temperature = y["temp"]
    
       # store the value corresponding
       # to the "pressure" key of y
       current_pressure = y["pressure"]
    
       # store the value corresponding
-      # to the "humidade" key of y
-      current_humidade = y["humidade"]
+      # to the "humidity" key of y
+      current_humidity = y["humidity"]
    
       # store the value of "weather"
       # key in variable z
       z = x["weather"]
    
       # store the value corresponding 
-      # to the "descrição" key at 
+      # to the "description" key at 
       # the 0th index of z
-      weather_descrição = z[0]["descrição"]
+      weather_description = z[0]["description"]
    
       # print following values
-      st.write(" Temperatura (in kelvin unit) = " +
-                      str(current_temperatura) +
+      st.write(" Temperature (in kelvin unit) = " +
+                      str(current_temperature) +
             "\n atmospheric pressure (in hPa unit) = " +
                       str(current_pressure) +
-            "\n humidade (in percentage) = " +
-                      str(current_humidade) +
-            "\n descrição = " +
-                      str(weather_descrição))
+            "\n humidity (in percentage) = " +
+                      str(current_humidity) +
+            "\n description = " +
+                      str(weather_description))
    
   else:
       st.write(" City Not Found ")
