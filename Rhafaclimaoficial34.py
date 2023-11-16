@@ -59,13 +59,13 @@ if st.button('Exibir Previsão'):
       weather_description = z[0]["description"]
    
       # print following values
-      st.write(" Temperature (in kelvin unit) = " +
+      st.write(" Temperatura (in kelvin unit) = " +
                       str(current_temperature) +
-            "\n atmospheric pressure (in hPa unit) = " +
+            "\n Pressão atmosferica (in hPa unit) = " +
                       str(current_pressure) +
-            "\n humidity (in percentage) = " +
+            "\n Umidade (in percentage) = " +
                       str(current_humidity) +
-            "\n description = " +
+            "\n descrição = " +
                       str(weather_description))
    
   else:
