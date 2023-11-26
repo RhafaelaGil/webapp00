@@ -61,7 +61,7 @@ if st.button('Exibir Previsão'):
       # print following values
       st.write(" Temperature (in kelvin unit) = " +
                       str(current_temperatura) +
-            "\n Pressão atmosferica (in hPa unit) = " +
+            "\n atmospheric pressure (in hPa unit) = " +
                       str(current_pressure) +
             "\n humidity (in percentage) = " +
                       str(current_Umidade) +
