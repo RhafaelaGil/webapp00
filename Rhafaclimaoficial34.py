@@ -59,18 +59,18 @@ if st.button('Exibir Previsão'):
       weather_description = z[0]["description"]
    
       # print following values
-      st.write(" Temperatura (in kelvin unit) = " +
-                      str(current_temperature) +
+      st.write(" Temperature (in kelvin unit) = " +
+                      str(current_temperatura) +
             "\n Pressão atmosferica (in hPa unit) = " +
                       str(current_pressure) +
-            "\n Umidade (in percentage) = " +
-                      str(current_humidity) +
-            "\n descrição = " +
-                      str(weather_description))
+            "\n humidity (in percentage) = " +
+                      str(current_Umidade) +
+            "\n description = " +
+                      str(weather_descrição))
    
   else:
       st.write(" City Not Found ")
  
  
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
-st.title("Clima Rafa - A Previsão do tempo em 09/11/23")
+st.title("MACK - A Previsão do tempo em 09/11/23")
