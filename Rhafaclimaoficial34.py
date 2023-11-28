@@ -73,4 +73,4 @@ if st.button('Exibir Previsão'):
  
  
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
-st.title("MACK - A Previsão do tempo em 09/11/23")
+st.title("MACK - A Previsão do tempo")
