@@ -352,12 +352,9 @@ if st.button('Exibir Previsão'):
       # to the "description" key at 
       # the 0th index of z
       weather_description = z[0]["description"]
-   def kelvin_para_celsius(temp_kelvin):
-    temp_celsius = temp_kelvin - 273.15
-    return temp_celsius
   
       # print following values
-      st.write(" Temperatura (in celvius unit) = " +
+      st.write(" Temperatura (in kelvin unit) = " +
                       str(current_temperature) +
             "\n Pressão Atmosférica (in hPa unit) = " +
                       str(current_pressure) +
