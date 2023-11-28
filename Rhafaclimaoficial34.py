@@ -352,9 +352,12 @@ if st.button('Exibir Previsão'):
       # to the "description" key at 
       # the 0th index of z
       weather_description = z[0]["description"]
-   
+   def kelvin_para_celsius(temp_kelvin):
+    temp_celsius = temp_kelvin - 273.15
+    return temp_celsius
+  
       # print following values
-      st.write(" Temperatura (in kelvin unit) = " +
+      st.write(" Temperatura (in celvius unit) = " +
                       str(current_temperature) +
             "\n Pressão Atmosférica (in hPa unit) = " +
                       str(current_pressure) +
@@ -366,11 +369,6 @@ if st.button('Exibir Previsão'):
   else:
       st.write(" City Not Found ")
  
- def kelvin_para_celsius(temp_kelvin):
-    temp_celsius = temp_kelvin - 273.15
-    return temp_celsius
-   print following values
- st.write(" Temperatura (in celsius unit) 
  
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("MACK - A Previsão do tempo")
